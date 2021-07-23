@@ -1,0 +1,44 @@
+.perfil-card {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 38px 44px;
+}
+
+.content-perfil {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content-img-perfil img {
+  width: 247px;
+  height: 247px;
+  min-width: 100%;
+  height: 100%;
+}
+
+.content-info-perfil {
+  flex: 1;
+  margin-left: 30px;
+  padding: 8px 14px;
+
+  background: #ffffff;
+
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.filde-description {
+  background: #ffffff;
+
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  padding: 8px 10px;
+}
+.content-info-perfil b {
+  font-weight: 700;
+  color: #737373;
+  margin-right: 4px;
+}
